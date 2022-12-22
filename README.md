@@ -18,10 +18,10 @@ Prerequisites
 Before running, change the email value ${email} in the following file:  Resouarces/RegistrationPageKeywords.robot
 
 Command line to execute Test Scenarios with tag “Smoke”
-robot -d Result -I Smoke Tests
+robot -d Result -i Smoke Tests
 
 Command line to execute Test Scenarios with tag “Functional”
-robot -d Result -I Functional Tests
+robot -d Result -i Functional Tests
 
 Command line to execute all Test Scenarios
 robot -d Result Tests
